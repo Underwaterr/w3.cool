@@ -10,7 +10,9 @@
 </template>
 
 <script>
-export default { data() { return { code: 
+export default { 
+head() { return { title: "How to Add CSS to a Webpage" } },
+data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">
   <head>

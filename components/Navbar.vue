@@ -15,11 +15,11 @@
         </ul>
       </li>
       <li>
-        Text &amp; Images
+        Content (Text and Images)
         <ul>
           <li><NuxtLink to="/html/paragraph">Paragraphs with <code>p</code> Elements</NuxtLink></li>
           <li>
-            <NuxtLink to="/html/headlines">
+            <NuxtLink to="/html/headline">
               Headlines with 
               <code>h1</code>, 
               <code>h2</code>, 
@@ -29,7 +29,7 @@
               <code>h6</code> Elements
             </NuxtLink>
           </li>
-          <li><NuxtLink to="/html/hyperlinks">Hyperlinks with <code>a</code> (Anchor) Elements</NuxtLink></li>
+          <li><NuxtLink to="/html/hyperlink">Hyperlinks with <code>a</code> (Anchor) Elements</NuxtLink></li>
           <li>
             <NuxtLink to="/html/emphasis">
               Emphasis with 
@@ -40,7 +40,7 @@
               <code>b</code> Elements
             </NuxtLink>
           </li>
-          <li><NuxtLink to="/html/lists">Lists with <code>ol</code>, <code>ul</code> and <code>li</code> Elements</NuxtLink></li>
+          <li><NuxtLink to="/html/list">Lists with <code>ol</code>, <code>ul</code> and <code>li</code> Elements</NuxtLink></li>
           <li><NuxtLink to="/html/img">Images with <code>img</code> Elements</NuxtLink></li>
         </ul>
       </li>

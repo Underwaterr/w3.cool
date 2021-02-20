@@ -10,7 +10,9 @@
 </template>
 
 <script>
-export default { data() { return { code: 
+export default { 
+head() { return { title: "The <main> Element" } },
+data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">
 

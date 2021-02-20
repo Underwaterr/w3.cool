@@ -16,7 +16,7 @@
 
 <script>
 export default { 
-//head() { return { title: "The Article Element" } },
+head() { return { title: "The <article> Element" } },
 data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">

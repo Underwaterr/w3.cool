@@ -11,7 +11,7 @@
 
 <script>
 export default { 
-head() { return { title: "The `nav` Element" } },
+head() { return { title: "The <nav> Element" } },
 data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">

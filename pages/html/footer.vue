@@ -1,17 +1,17 @@
 <template>
   <article>
     <h3>The <code>footer</code> Element</h3>
-    <p>The <code>foooter</code> element is for footers: sections of information about another piece of content. Examples inlucde details about the author, citations, copyright information, etc. This can be for an article or for the whole webpage.</p>
+    <p>The <code>foooter</code> element is for footers: sections of information about another piece of content. Examples include details about the author, citations, copyright information, etc. This can be for an article or for the whole webpage.</p>
     <p>While footers are typically after the content they refer to, this doesn't necessarily have to be the case.</p>
     <h4>Example</h4>
     <Prism language="html" :code="code" />
-    <NuxtLink to="footer">Next: The <code>footer</code> Element</NuxtLink>
+    <NuxtLink to="nav">Next: The <code>nav</code> Element</NuxtLink>
   </article>
 </template>
 
 <script>
 export default { 
-head() { return { title: "The Footer Element" } },
+head() { return { title: "The <footer> Element" } },
 data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">

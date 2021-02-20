@@ -9,6 +9,8 @@
 </template>
 
 <script>
-export default { data() { return { code: 
+export default { 
+head() { return { title: "HTML Doctype" } },
+data() { return { code: 
 `<!DOCTYPE html>`
 } } } </script>

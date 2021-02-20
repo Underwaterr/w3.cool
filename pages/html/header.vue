@@ -1,7 +1,7 @@
 <template>
   <article>
     <h3>The <code>header</code> Element</h3>
-    <p>Not to be confused with <NuxtLink to="heading">headings</NuxtLink>, headers are the more broad sections of a webpage that introduce other content, whether as part of an individual article or for the entire webpage.</p>
+    <p>Not to be confused with <NuxtLink to="headline">headline</NuxtLink> elements, headers are the more broad sections of a webpage that introduce other content, whether as part of an individual article or for the entire webpage.</p>
     <!-- https://html.spec.whatwg.org/multipage/sections.html#the-header-element -->
     <h4>Example</h4>
     <Prism language="html" :code="code" />
@@ -11,7 +11,7 @@
 
 <script>
 export default { 
-head() { return { title: "The Header Element" } },
+head() { return { title: "The <header> Element" } },
 data() { return { code: 
 `<!DOCTYPE html>
 <html lang="en">

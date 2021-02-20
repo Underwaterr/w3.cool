@@ -17,7 +17,9 @@
 </template>
 
 <script>
-export default { data() { return { code: [
+export default { 
+head() { return { title: "The <html> Element" } },
+data() { return { code: [
 `<!DOCTYPE html>
 <html></html>`,
 `<!DOCTYPE html>
