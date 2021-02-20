@@ -12,13 +12,29 @@ body {
   line-height: 1.25;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header"
+    "navigation main";
+}
+
+.grid-header { grid-area: header; }
+.grid-navigation { grid-area: navigation; }
+.grid-main { grid-area: main; }
+
+nav {
+  border-right: 2px dashed black;
+}
+
 main {
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 0 0.5rem;
 }
 
 h3 {
-  margin-top: 3em;
+  margin-top: 0;
   border-bottom: 1px solid black;
 }
 
@@ -29,6 +45,8 @@ h4 {
 ol, ul {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  list-style-position: inside;
 }
 
 ol ol, ol ul, ul ul, ul ol {

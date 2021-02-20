@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="grid-navigation">
     <NuxtLink to="/html">HTML</NuxtLink>
     <ul>
       <li> 
