@@ -2,7 +2,7 @@
   <article>
     <h3>Headlines</h3>
     <p>We use headlines in writing to introduce and label different sections of content.<p>
-    <p>Remember that headline elements don't determine how elements visually appear. The one and only use for HTML is to label what content is; any and all styling to elements come from CSS.</p>
+    <p>Do not use headline elements to make text bigger or smaller. HTML is only for describing what kind of content something is. Use CSS to change how text appears.</p>
     <h4>Example</h4>
     <Prism language="html" :code="code" />
     <NuxtLink to="hyperlink">Next: Hyperlinks with Anchor Tags</NuxtLink>
@@ -28,7 +28,7 @@ data() { return { code:
     <h2>About Avery</h2>
     <p>Avery likes computers and listens to jazz.</p>
     <h2>Avery's Musical Talents</h2>
-    <p>Avery can't play the bass but they think people who can are awesome!</p>
+    <p>Avery can't play the bass but admires those who can!</p>
   </body>
 </html>`
 } } } </script>
