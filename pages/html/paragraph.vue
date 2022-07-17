@@ -3,7 +3,7 @@
     <h3>Paragraphs with the <code>p</code> Element</h3>
     <p>Wrap each paragraph with <code>&lt;p&gt;</code> tags.</p>
     <h4>Example</h4>
-    <Prism language="html" :code="code" />
+    <Prism language="html" :code="code" :data-line="5" />
     <NuxtLink to="headline">Next: Headlines</NuxtLink>
   </article>
 </template>
@@ -16,8 +16,8 @@ data() { return { code:
 <html lang="en">
 
   <head>
-    <title>Avery's Cool Website</title>
     <meta charset="utf-8">
+    <title>Avery's Cool Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/custom.css">
   </head>

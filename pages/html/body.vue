@@ -5,7 +5,7 @@
     <p>Contrast this to the head, where we put information that describes the content, but is not the content itself.</p>
     <h4>Example</h4>
     <Prism language="html" :code="code" />
-    <NuxtLink to="semantic">Next: Semantic Elements</NuxtLink>
+    <NuxtLink to="paragraph">Next: the <code>p</code> element</NuxtLink>
   </article>
 </template>
 
@@ -17,8 +17,8 @@ data() { return { code:
 <html lang="en">
 
   <head>
-    <title>Avery's Cool Website</title>
     <meta charset="utf-8">
+    <title>Avery's Cool Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/custom.css">
   </head>

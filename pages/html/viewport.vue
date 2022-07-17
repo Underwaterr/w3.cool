@@ -16,8 +16,8 @@ data() { return { code:
 `<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Avery's Cool Website</title>
     <meta charset="utf-8">
+    <title>Avery's Cool Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 </html>`
