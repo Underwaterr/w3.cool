@@ -30,7 +30,8 @@ nav {
 }
 
 main {
-  margin: 0 0.5rem;
+  margin: 0 2rem;
+  max-width: 720px;
 }
 
 h3 {
@@ -53,3 +54,6 @@ ol ol, ol ul, ul ul, ul ol {
   margin-bottom: 0;
 }
 
+p code {
+  background-color: lightgray;
+}

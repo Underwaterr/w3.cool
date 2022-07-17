@@ -2,7 +2,7 @@
   <article>
     <h3>Hyperlinks</h3>
     <p>Hyperlinks are the most important feature of the internet. They let webpages link to other webpages!</p>
-    <p>Hyperlinks use the <code>&lt;a&gt;</code> tag for some reason. Be sure not to confuse it with the <code>&lt;link&gt;</code> element, which is how we include CSS and JavaScript for a webpage.</p>
+    <p>Hyperlinks use the <code>&lt;a&gt;</code> tag for some reason. Be sure not to confuse it with the <code>&lt;link&gt;</code> element, which is how we add CSS and JavaScript to a webpage.</p>
     <h4>Example</h4>
     <Prism language="html" :code="code" />
     <NuxtLink to="hyperlink">Next: Hyperlinks with Anchor Tags</NuxtLink>

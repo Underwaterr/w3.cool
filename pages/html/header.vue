@@ -28,7 +28,8 @@ data() { return { code:
     <main>
       <article>
         <header>Here's where my article's header content will go</header>
-        Here's where the rest of my article content will go
+        <p>Here's some content for my article</p>
+        <img src="https://www.example.com/seahorse.jpg" alt="a picture of a seahorse">
       </article>
     </main>
   </body>

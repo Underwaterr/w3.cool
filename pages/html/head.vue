@@ -5,7 +5,7 @@
     <p>Contrast this to the <code>body</code> element that will contain the content itself.</p>
     <h4>Example</h4>
     <Prism language="html" :code="code" />
-    <NuxtLink to="encoding">Next: Encoding with the <code>meta</code> element</NuxtLink>
+    <NuxtLink to="meta">Next: Encoding and Viewport with the <code>meta</code> element</NuxtLink>
   </article>
 </template>
 
